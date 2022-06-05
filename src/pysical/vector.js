@@ -36,7 +36,7 @@ var vector = {
   getZ: function () {
     return this._z;
   },
-
+//
   setAngleXY: function (angle) {
     var length = this.getLength();
     this._x = Math.cos(angle) * length;
